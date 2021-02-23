@@ -1,6 +1,6 @@
 /*
-    Project: abc bruteforce
-    Author: Pocieszny
+    Project : ABC Shitty Brute-force
+    Author  : Pocieszny
 */
 
 #include <iostream>
