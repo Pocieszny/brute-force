@@ -1,4 +1,4 @@
-# bruteforce
+# brute-force
 
 My version of brutforce algorithm.
 I'm kinda proud of myself.
