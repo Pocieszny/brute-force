@@ -1,5 +1,5 @@
 /*
-    [Project] : Brutforce Algorithm
+    [Project] : Brute-force Algorithm
     [Author]  : Pocieszny
 */ 
 
