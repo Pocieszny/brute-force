@@ -1,11 +1,11 @@
 /*
-    [Project] : Bruteforce Algorithm
+    [Project] : Brutforce Algorithm
     [Author]  : Pocieszny
 */ 
 
 #include <iostream>
 
-constexpr short int len     {10};
+constexpr short int len     {5};
 constexpr short int alen    {6};
 
 unsigned char alph[alen + 1]    {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
@@ -28,11 +28,9 @@ int main ()
 
         for (short int c {len}; c >= 0; --c)
         {
-            if (num[c] < alen)
-            {
-                ++num[c];
+            if (++num[c] <= alen)
                 break;
-            } else
+            else
                 num[c] = 0;
         }
     }
