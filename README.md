@@ -1,2 +1,6 @@
 # bruteforce
-Fist and second brutforce algorithm attempt in cpp.
+
+My version of brutforce algorithm.
+I'm kinda proud of myself.
+
+Pocieszny.
