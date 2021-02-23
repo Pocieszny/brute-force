@@ -16,12 +16,14 @@ bool isDone ();
 inline void output ()
 {
     for (unsigned short int x {0}; x <= len; ++x)
-        std::cout << alph[num[x]];
-    std::cout << '\n';
+        printf ("%c", alph[num[x]]);
+    printf ("\n");
 }
 
 int main ()
 {
+    std::ios_base::sync_with_stdio (1);
+
     while (isDone())
     {
         output();
