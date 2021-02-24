@@ -15,7 +15,7 @@ bool isDone ();
 
 inline void output ()
 {
-    for (unsigned short int x {0}; x <= len; ++x)
+    for (unsigned int x {0}; x <= len; ++x)
         printf ("%c", alph[num[x]]);
     printf ("\n");
 }
@@ -28,7 +28,7 @@ int main ()
     {
         output();
 
-        for (short int c {len}; c >= 0; --c)
+        for (int c {len}; c >= 0; --c)
         {
             if (++num[c] <= alen)
                 break;
@@ -40,7 +40,7 @@ int main ()
 
 bool isDone ()
 {
-    for (unsigned short int x {0}; x <= len; ++x)
+    for (unsigned int x {0}; x <= len; ++x)
         if (num[x] != alen)
             return true;
     output();
